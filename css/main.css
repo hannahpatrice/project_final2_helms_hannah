@@ -4,30 +4,66 @@
 	border: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-	display:block;
-}
-
 @font-face {
 	font-family: 'nk57';
-	src: url('fonts/nk57.ttf');
+	src: url('../fonts/nk57.ttf');
 }
 
 @font-face {
 	font-family: 'nk57 light';
-	src: url('fonts/nk57light.ttf');
+	src: url('../fonts/nk57light.ttf');
 }
 
-h1, h2 {
+h1,
+h2 {
 	font-family: 'nk57';
-	font-size: 2.75rem;
 }
 
 h2 {
 	color: #990101;
+	font-family: 'nk57';
 	text-transform: uppercase;
+	font-size: 2.75rem;
+}
+
+h3 {
+	font-family: 'nk57 light';
+}
+
+h5 {
+	font-family: 'EB Garamond', serif;
 }
 
 p {
 	font-family: 'EB Garamond', serif;
+}
+
+.button {
+	background-color: #ffffff;
+	border: 5px solid #008080;
+	color: #008080;
+	padding: 20px 50px;
+	font-family: 'nk57';
+	font-size: 1.5em;
+}
+
+.button:hover {
+    background-color: #008080;
+    color: white;
+    transition: 0.7s;
+}
+
+.hover {
+	padding: 20px 50px;
+	font-family: 'nk57';
+	font-size: 1.5em;
+    background-color: #008080;
+    color: white;
+	border: 5px solid #008080;
+}
+
+.hover:hover {
+	background-color: #ffffff;
+	color: #008080;
+    transition: 0.7s;
 }
