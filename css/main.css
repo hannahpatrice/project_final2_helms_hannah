@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display:block;
+}
+
+@font-face {
+	font-family: 'nk57';
+	src: url('fonts/nk57.ttf');
+}
+
+@font-face {
+	font-family: 'nk57 light';
+	src: url('fonts/nk57light.ttf');
+}
+
+h1, h2 {
+	font-family: 'nk57';
+	font-size: 2.75rem;
+}
+
+h2 {
+	color: #990101;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'EB Garamond', serif;
+}
