@@ -14,34 +14,46 @@
 	src: url('../fonts/nk57light.ttf');
 }
 
+@font-face {
+	font-family: 'nk57 bold';
+	src: url('../fonts/nk57bold.ttf');
+}
+
 .container {
 	margin: auto;
 	width: 90%;
-	padding-top: 8%;
+}
+
+div img {
+	border: 5px solid white;
 }
 
 h1{
 	font-family: 'nk57';
 	color: white;
 	display: inline-block;
-	padding-left: 13%;
+	padding-left: 30%;
+	font-size: 56px;
 }
 
 h2 {
 	color: #990101;
 	font-family: 'nk57';
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 2.25em;
+	padding-bottom: 3%;
 }
 
 .example {
 	font-size: 2.5rem;
+	padding-bottom: 0;
 }
 
 h3 {
 	font-family: 'nk57 light';
 	font-size: 1.75rem;
 	color: #410000;
+	padding-top: 2%;
 }
 
 h5 {
@@ -78,8 +90,9 @@ a:hover {
 	border: 5px solid #008080;
 	color: #008080;
 	padding: 20px 50px;
-	font-family: 'nk57';
+	font-family: 'nk57 bold';
 	font-size: 1.5em;
+	width: 45%;
 }
 
 .button:hover {
@@ -90,11 +103,12 @@ a:hover {
 
 .hover {
 	padding: 20px 50px;
-	font-family: 'nk57';
+	font-family: 'nk57 bold';
 	font-size: 1.5em;
     background-color: #008080;
     color: white;
 	border: 5px solid #008080;
+	width: 45%;
 }
 
 .hover:hover {
@@ -108,12 +122,22 @@ header {
 	background-color: black;
 	padding: 1px 5%;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25), 0 7px 22px 0 rgba(0, 0, 0, 0.25);
+	margin-bottom: 225px;
 }
 
 .logo {
-	width: 10%;
+	width: 13%;
 	display: inline-block;
 	position: absolute;
 	z-index: 1000;
 	padding-top: 10px;
+	min-width: 250px;
+}
+
+article + article {
+	padding-top: 3%;
+}
+
+section + section {
+	padding-top: 3%
 }
