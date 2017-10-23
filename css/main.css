@@ -78,6 +78,7 @@ h4 {
 p {
 	font-family: 'EB Garamond', serif;
 	font-size: 25px;
+	padding-top: 4.5%;
 }
 
 img {
@@ -167,6 +168,10 @@ section + section {
 
 .adj + .adj {
 	padding-left: 6%;
+}
+
+h2 + .flex {
+	padding-top: 2%;
 }
 
 @media all and (min-width: 670px) {
