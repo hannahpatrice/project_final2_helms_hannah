@@ -1,6 +1,7 @@
 
 html {
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 * {
@@ -110,6 +111,7 @@ a:hover {
 	font-size: 35px;
 	width: 45%;
 	margin-top: 3%;
+	flex-grow: 1;
 }
 
 .button:hover {
@@ -128,6 +130,7 @@ a:hover {
 	width: 45%;
 	margin-top: 3%;
 	margin-left: 6%;
+	flex-grow: 1;
 }
 
 .hover:hover {
