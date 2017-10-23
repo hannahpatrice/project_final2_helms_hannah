@@ -1,4 +1,5 @@
 
+/* LAYOUT */
 html {
 	box-sizing: border-box;
 }
@@ -7,21 +8,6 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
-}
-
-@font-face {
-	font-family: 'nk57';
-	src: url('../fonts/nk57.ttf');
-}
-
-@font-face {
-	font-family: 'nk57 light';
-	src: url('../fonts/nk57light.ttf');
-}
-
-@font-face {
-	font-family: 'nk57 bold';
-	src: url('../fonts/nk57bold.ttf');
 }
 
 .container {
@@ -38,10 +24,23 @@ html {
 	flex-wrap: wrap;
 }
 
-div img {
-	border: 8px solid white;
-	margin-top: 3%;
+/* FONTS */
+@font-face {
+	font-family: 'nk57';
+	src: url('../fonts/nk57.ttf');
 }
+
+@font-face {
+	font-family: 'nk57 light';
+	src: url('../fonts/nk57light.ttf');
+}
+
+@font-face {
+	font-family: 'nk57 bold';
+	src: url('../fonts/nk57bold.ttf');
+}
+
+/* TEXT STYLES */
 
 h1 {
 	font-family: 'nk57';
@@ -55,10 +54,6 @@ h2 {
 	font-family: 'nk57';
 	text-transform: uppercase;
 	font-size: 40px;
-}
-
-.example {
-	padding-bottom: 0;
 }
 
 h3 {
@@ -81,10 +76,17 @@ p {
 	padding-top: 4.5%;
 }
 
+/* IMAGES */
 img {
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25), 0 7px 22px 0 rgba(0, 0, 0, 0.25);
 }
 
+div img {
+	border: 8px solid white;
+	margin-top: 3%;
+}
+
+/* TEXT LINK */
 a {
 	text-decoration: none;
 	color: #008080;
@@ -94,14 +96,7 @@ a:hover {
 	font-weight: 600;
 }
 
-.adj {
-	font-family: 'nk57';
-	text-transform: uppercase;
-	color: black;
-	font-size: 40px;
-	margin-top: 3%;
-}
-
+/* BUTTONS */
 .button {
 	background-color: #ffffff;
 	border: 5px solid #008080;
@@ -137,6 +132,7 @@ a:hover {
     transition: 0.7s;
 }
 
+/* HTML5 SECTION STYLES */
 header {
 	background-color: black;
 	padding: 1px 5%;
@@ -147,6 +143,11 @@ header {
 
 main {
 	padding-top: 5%;
+}
+
+/* LAYOUT CLASSES */
+.example {
+	padding-bottom: 0;
 }
 
 .logo {
@@ -162,6 +163,15 @@ main {
 	margin-left: 4%;
 }
 
+.adj {
+	font-family: 'nk57';
+	text-transform: uppercase;
+	color: black;
+	font-size: 40px;
+	margin-top: 3%;
+}
+
+/* LOBOTOMIZED OWL */
 article + article {
 	padding-top: 5%;
 }
@@ -177,6 +187,8 @@ section + section {
 h2 + .flex {
 	padding-top: 2%;
 }
+
+/* MEDIA QUERIES */
 
 @media all and (min-width: 670px) {
 
