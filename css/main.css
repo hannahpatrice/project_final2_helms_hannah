@@ -1,7 +1,6 @@
 
 html {
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 * {
@@ -26,10 +25,10 @@ html {
 }
 
 .container {
-	margin: 0 auto;
+	margin: auto;
 	display: block;
 	position: relative;
-	width: 90%;
+	width: 80%;
 	padding-bottom: 5%;
 }
 
@@ -106,12 +105,10 @@ a:hover {
 	background-color: #ffffff;
 	border: 5px solid #008080;
 	color: #008080;
-	paddingt: 20px 0px;
+	padding: 20px 0%;
 	font-family: 'nk57 bold';
 	font-size: 35px;
-	width: 45%;
 	margin-top: 3%;
-	flex-grow: 1;
 }
 
 .button:hover {
@@ -121,16 +118,14 @@ a:hover {
 }
 
 .hover {
-	padding: 20px 0px;
+	padding: 20px 0%;
 	font-family: 'nk57 bold';
 	font-size: 35px;
     background-color: #008080;
     color: white;
 	border: 5px solid #008080;
-	width: 45%;
 	margin-top: 3%;
 	margin-left: 6%;
-	flex-grow: 1;
 }
 
 .hover:hover {
@@ -140,11 +135,11 @@ a:hover {
 }
 
 header {
-	width: 100%;
 	background-color: black;
 	padding: 1px 5%;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25), 0 7px 22px 0 rgba(0, 0, 0, 0.25);
 	margin-bottom: 100px;
+	box-sizing: border-box;
 }
 
 main {
@@ -205,14 +200,14 @@ section + section {
 	aside {
 		float: left;
 		width: 50%;
-		padding-right: 5%;
-		box-sizing: border-box;;
 	}
 
 	main {
 		float: right;
 		width: 50%;
 		padding: 0;
+		padding-left: 5%;
+		box-sizing: border-box;
 	}
 
 	header {
