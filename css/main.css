@@ -158,6 +158,10 @@ main {
 	text-align: center;
 }
 
+.color {
+	margin-left: 4%;
+}
+
 article + article {
 	padding-top: 5%;
 }
@@ -196,6 +200,10 @@ h2 + .flex {
 
 	.flex {
 		justify-content: space-between;
+	}
+
+	.color {
+		margin: 0;
 	}
 }
 
